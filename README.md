@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Roidneg
 - 👀 I’m interested in learning to Code.
-- 🌱 I’m currently learning  Currently I'm working on HTML, CSS front end and some data tools from Coursa with Google's learning program. I want to get my feet wet in python as well 
-- 💞️ I’m looking to collaborate on anything that i can help with and get experince. 
+- 🌱 I’m currently a Prompt Engineer with data analytics experience.  
+- 💞️ I’m looking to collaborate on anything that I can help with and get experience. 
 - 📫 How to reach me by emailing me @ Jorge.Arenas.Ross@gmail.com
 
 <!---
