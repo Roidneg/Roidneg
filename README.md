@@ -1,71 +1,40 @@
 # Jorge Arenas
 
-## AI Trust Engineer | Technical Program Manager | Prompt Engineer
+**AI Trust Engineer | AI Evaluation & Reliability | Technical Program Leadership**
 
-I help teams make AI systems more reliable, measurable, and useful.
+I help teams make AI systems more reliable, measurable, and useful. My work spans AI-agent quality assurance, regression testing, evaluation, operational reporting, and cross-functional delivery. I have supported enterprise generative AI and computer-vision programs, and I bring more than eight years of cross-functional leadership experience, including over three years supporting AI and machine learning initiatives.
 
-My work sits at the intersection of AI quality, technical program delivery, data analysis, and responsible AI adoption. I have supported enterprise generative AI, computer vision, and AI-agent programs through structured evaluation, regression testing, operational reporting, cross-functional coordination, and risk analysis.
+I care about what happens after a model produces an answer: whether the evidence supports it, whether the system handles failures, and whether a team can tell if a change made things better or worse.
 
-I bring more than eight years of cross-functional leadership experience, including over three years supporting AI and machine learning initiatives.
+## What I Bring
 
-## What I Work On
-
-* AI-agent quality assurance and regression testing
-* LLM evaluation, prompt engineering, and red-team testing
-* Golden datasets, annotation quality, and evaluation rubrics
-* AI risk identification and failure-pattern analysis
-* Technical program and cross-functional project management
-* KPI development, operational reporting, and trend analysis
-* Responsible AI adoption and human-centered quality processes
-
-## Technical Toolkit
-
-**Languages and analysis:** Python, SQL, KQL, pandas, NumPy
-**Data and reporting:** Excel, Google Sheets, Jupyter, data visualization
-**AI quality:** Prompt evaluation, model evaluation, red teaming, regression testing
-**Delivery:** Jira, Kanban, Agile workflows, KPI tracking, stakeholder reporting
-**Development tools:** GitHub, VS Code, Docker fundamentals, Microsoft Dev Box
+- **AI evaluation and trust:** Agent-response QA, red-team testing, golden datasets, evaluation rubrics, and failure-pattern analysis.
+- **Operational judgment:** Regression triage, decision-path checks, risk reporting, KPIs, and clear communication across technical and business teams.
+- **Hands-on development:** Python, SQL, KQL, pandas, NumPy, Power BI, GitHub Actions, Streamlit, and Docker fundamentals.
 
 ## Featured Projects
 
-### [Predicting Power Plant Energy Output Using Machine Learning](https://github.com/Roidneg/Predicting-Power-Plant-Energy-Output-Using-Machine-Learning)
+### [ProfileLens: Reddit Profile Visibility Auditor](https://github.com/Roidneg/ProfileLens_reddit_Visibility_auditor)
 
-A supervised machine-learning project that compares regression models for forecasting hourly electrical output from environmental sensor data. The project connects model performance with a practical energy-planning use case.
+A Python and Streamlit tool that compares public profile listings with archived records without treating every missing item as proof of deletion or concealment. It uses explicit evidence states, bounded checks, a fictional offline demo, automated tests, CI, and Docker. The project reflects how I think about provenance, uncertainty, and responsible use.
 
-### [Fake News Detection: Basic NLP Case Study](https://github.com/Roidneg/Fake_News_Case_Study_Basic_NLP_Project)
+### [Discord Job Intelligence](https://github.com/Roidneg/JobDiscordBot)
 
-An NLP classification project covering text preprocessing, feature extraction, model comparison, and evaluation with precision, recall, accuracy, and F1-score.
+A Python pipeline that gathers public listings from several job sources, filters and scores remote roles, deduplicates results across runs, and sends a daily Discord digest. It includes tests, scheduled GitHub Actions, dry-run behavior, and secret-based webhook configuration.
 
-### [Horror Movie Analysis by Decade](https://github.com/Roidneg/horror-movie-analysis_by_Decade)
+### [RAG Hallucination Analysis](https://github.com/Roidneg/RAG-Hallucination-Analysis)
 
-A Python data-analysis project investigating changes in horror-film popularity from the 1950s through the 2020s, including trend analysis, anomaly investigation, and visualization.
+A two-page Power BI report analyzing 6,000 labeled samples with and without retrieval-augmented generation. It compares hallucination rates by domain and examines 463 outputs still labeled as hallucinations with RAG. The README documents the measures, source, uneven sample sizes, and limits of this descriptive evaluation.
 
-### [Coffee Sales Dashboard](https://github.com/Roidneg/-Coffee-Sales-Dashboard-Excel-)
+### [Weather Risk & Operations Dashboard](https://github.com/Roidneg/Weather-Risk-Operations-Dashboard)
 
-An interactive Excel dashboard using PivotTables, slicers, KPIs, and sales visualizations to support clear, data-driven business analysis.
+A Streamlit application that turns live weather and forecast API data into a transparent, rule-based operational risk view. It shows which conditions triggered a classification and handles common lookup and API failures.
 
-## Currently Building
+## Where I'm Headed
 
-### AI Agent Regression Analyst
+I am building toward AI Systems Engineering by deepening my Python and backend skills and turning my evaluation experience into runnable systems with tests, traceable evidence, clear boundaries, and reliable failure handling. My professional work gives me the evaluation context; these public projects show how I apply it in code.
 
-I am developing a portfolio project inspired by my professional experience with AI-agent regression testing and operational reporting.
+## Connect
 
-The system will analyze synthetic test results, classify failures by severity and risk, identify recurring patterns, and generate concise quality reports. The planned project will combine Python, structured evaluation logic, automated testing, and an accessible demonstration interface.
-
-## Professional Focus
-
-I am continuing to expand my hands-on AI engineering capabilities while building on an established background in:
-
-* Enterprise AI operations
-* AI-agent and model quality
-* Technical program leadership
-* Prompt engineering and evaluation
-* Data-driven decision support
-* Cross-functional delivery
-
-I am especially interested in projects involving AI trust, agent evaluation, responsible AI adoption, model quality, and the operational systems required to deploy AI responsibly.
-
-## Let’s Connect
-
-* [LinkedIn](https://www.linkedin.com/in/jarena86/)
-* [GitHub Projects](https://github.com/Roidneg?tab=repositories)
+- [LinkedIn](https://www.linkedin.com/in/jarena86/)
+- [Explore my repositories](https://github.com/Roidneg?tab=repositories)
