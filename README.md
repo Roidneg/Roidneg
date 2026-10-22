@@ -1,40 +1,42 @@
 # Jorge Arenas
 
-**AI Trust Engineer | AI Evaluation & Reliability | Technical Program Leadership**
+**AI Trust Engineer | AI Evaluation & Reliability | Building AI Applications**
 
-I help teams make AI systems more reliable, measurable, and useful. My work spans AI-agent quality assurance, regression testing, evaluation, operational reporting, and cross-functional delivery. I have supported enterprise generative AI and computer-vision programs, and I bring more than eight years of cross-functional leadership experience, including over three years supporting AI and machine learning initiatives.
+I work on the part of AI that has to hold up after the demo. My professional work includes agent-response QA, regression testing, decision-path checks, and operational reporting. In my own projects, I build Python applications that make model behavior easier to test, inspect, and improve.
 
-I care about what happens after a model produces an answer: whether the evidence supports it, whether the system handles failures, and whether a team can tell if a change made things better or worse.
-
-## What I Bring
-
-- **AI evaluation and trust:** Agent-response QA, red-team testing, golden datasets, evaluation rubrics, and failure-pattern analysis.
-- **Operational judgment:** Regression triage, decision-path checks, risk reporting, KPIs, and clear communication across technical and business teams.
-- **Hands-on development:** Python, SQL, KQL, pandas, NumPy, Power BI, GitHub Actions, Streamlit, and Docker fundamentals.
+I'm working toward AI Systems Engineering through practical projects: structured inputs and outputs, clear boundaries around model behavior, saved evidence, and tests for the things that can go wrong. I use AI tools in development, review the results, and stay responsible for the product and its behavior.
 
 ## Featured Projects
 
-### [ProfileLens: Reddit Profile Visibility Auditor](https://github.com/Roidneg/ProfileLens_reddit_Visibility_auditor)
+### [EvalForge](https://github.com/Roidneg/EvalForge) · AI evaluation workbench
 
-A Python and Streamlit tool that compares public profile listings with archived records without treating every missing item as proof of deletion or concealment. It uses explicit evidence states, bounded checks, a fictional offline demo, automated tests, CI, and Docker. The project reflects how I think about provenance, uncertainty, and responsible use.
+I built a local workbench for checking supplied model responses, inspecting case-level evidence, and comparing evaluation runs. FastAPI, Pydantic, SQLite, and Streamlit support a reproducible workflow. Its synthetic sample moves from **7/12** passing cases to **11/12**, while the comparison still exposes **one regression**. The checks are deterministic and have stated limits; they do not stand in for a human judgment of correctness.
 
-### [Discord Job Intelligence](https://github.com/Roidneg/JobDiscordBot)
+### [StoryDoor](https://github.com/Roidneg/StoryDoor) · interactive fiction with inspectable AI narration
 
-A Python pipeline that gathers public listings from several job sources, filters and scores remote roles, deduplicates results across runs, and sends a daily Discord digest. It includes tests, scheduled GitHub Actions, dry-run behavior, and secret-based webhook configuration.
+Two playable mysteries use a Python story engine for choices and consequences, with an LLM handling narration. When narration breaks a targeted rule, the app can show an engine-written fallback and retain the original response for review. I added saved journeys, evaluation records, human review, offline regression fixtures, and automated tests. The project grew from a creative idea into a study of what happens when fluent model output conflicts with story state.
 
-### [RAG Hallucination Analysis](https://github.com/Roidneg/RAG-Hallucination-Analysis)
+### [RAG Hallucination Analysis](https://github.com/Roidneg/RAG-Hallucination-Analysis) · Power BI
 
-A two-page Power BI report analyzing 6,000 labeled samples with and without retrieval-augmented generation. It compares hallucination rates by domain and examines 463 outputs still labeled as hallucinations with RAG. The README documents the measures, source, uneven sample sizes, and limits of this descriptive evaluation.
+I analyzed **6,000 labeled samples** in a two-page Power BI report comparing hallucination labels with and without retrieval. The second page examines the **463 outputs** still labeled as hallucinations with RAG. I document uneven domain sample sizes and the limits of drawing conclusions from this dataset.
 
-### [Weather Risk & Operations Dashboard](https://github.com/Roidneg/Weather-Risk-Operations-Dashboard)
+### [Discord Job Intelligence](https://github.com/Roidneg/JobDiscordBot) · scheduled data pipeline
 
-A Streamlit application that turns live weather and forecast API data into a transparent, rule-based operational risk view. It shows which conditions triggered a classification and handles common lookup and API failures.
+I built a Python pipeline that collects public job postings, normalizes and filters remote roles, scores matches with explicit rules, and sends a Discord digest. GitHub Actions runs the workflow on a schedule; saved state helps prevent repeat posts. The current ranking is rule based, providing a baseline for a future AI ranking experiment.
 
-## Where I'm Headed
+### [ProfileLens](https://github.com/Roidneg/ProfileLens_reddit_Visibility_auditor) · evidence and uncertainty
 
-I am building toward AI Systems Engineering by deepening my Python and backend skills and turning my evaluation experience into runnable systems with tests, traceable evidence, clear boundaries, and reliable failure handling. My professional work gives me the evaluation context; these public projects show how I apply it in code.
+I built a Streamlit tool for comparing public Reddit profile listings with archived records. It reports evidence states and bounded checks without treating every missing item as proof that a post was deleted or concealed.
+
+## What I Work With
+
+Python · FastAPI · Pydantic · Streamlit · SQLite · pytest · GitHub Actions · SQL · Power BI · AI evaluation · agent QA
+
+## How I Build
+
+I like turning a vague idea into a working system, then asking what it misses. That means keeping failure cases, checking the data flow, and explaining what the tests do and do not prove. I collaborate with AI coding tools on these projects, while setting direction, reviewing behavior, and using observed failures to guide changes.
 
 ## Connect
 
 - [LinkedIn](https://www.linkedin.com/in/jarena86/)
-- [Explore my repositories](https://github.com/Roidneg?tab=repositories)
+- [All repositories](https://github.com/Roidneg?tab=repositories)
