@@ -16,6 +16,12 @@ I built a local workbench for checking supplied model responses, inspecting case
 
 Two playable mysteries use a Python story engine for choices and consequences, with an LLM handling narration. When narration breaks a targeted rule, the app can show an engine-written fallback and retain the original response for review. I added saved journeys, evaluation records, human review, offline regression fixtures, and automated tests. The project grew from a creative idea into a study of what happens when fluent model output conflicts with story state.
 
+### [Star Trek Writer’s Room](https://github.com/Roidneg/Star-Trek-Writer-s-Room-Project) · staged AI generation with human review
+
+I built a Streamlit demo that turns a creative brief into provisional character guidance and a screenplay scene. Python, Pydantic, and Cloudflare Workers AI support a two-stage workflow with downloadable generation records, at most two model calls per draft, and no automatic retries. The default offline suite passes **87 tests**. Live testing also exposed a useful distinction: structurally valid output can still contain unsupported claims and continuity errors. Drafts are explicitly labeled unverified and require human review; the broader research and validation workflows remain experimental.
+
+[Explore the live demo](https://star-trek-writer-s-room-project-jorge.streamlit.app/) — the sample is open to everyone; live generation requires an access code.
+
 ### [RAG Hallucination Analysis](https://github.com/Roidneg/RAG-Hallucination-Analysis) · Power BI
 
 I analyzed **6,000 labeled samples** in a two-page Power BI report comparing hallucination labels with and without retrieval. The second page examines the **463 outputs** still labeled as hallucinations with RAG. I document uneven domain sample sizes and the limits of drawing conclusions from this dataset.
